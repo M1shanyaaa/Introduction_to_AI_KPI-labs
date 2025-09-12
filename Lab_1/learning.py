@@ -1,34 +1,39 @@
 import random
-
-import matplotlib
 import networkx as nx
-
-matplotlib.use("TkAgg")  # або "Qt5Agg", якщо встановлений PyQt5
 import matplotlib.pyplot as plt
 
 
-def generate_graph(n, remove_edges=13):
-    graph = nx.grid_2d_graph(n, n)
-    edges = list(graph.edges())
-    random.shuffle(edges)
+class Create_Graph():
+    def __init__(self, n, remove_edges):
+        self.n = n
+        self.remove_edges = remove_edges
+        self.graph = None
 
-    removed = 0
-    for u, v in edges:
-        if removed >= remove_edges:
-            break
-        graph.remove_edge(u, v)
-        if not nx.is_connected(graph):  # перевіряємо зв’язність
-            graph.add_edge(u, v)  # відновлюємо, бо розвалився
-        else:
-            removed += 1
-    return graph
+        self.generate_graph()
 
 
-def visualization(graph):
-    pos = {node: (node[1], -node[0]) for node in graph.nodes()}
-    nx.draw(graph, pos, node_color="white", edgecolors="black", node_size=200)
-    plt.show()
+    def generate_graph(self, ):
+        self.graph = nx.grid_2d_graph(self.n, self.n)
+        edges = list(self.graph.edges())
+        random.shuffle(edges)
+
+        removed = 0
+        for u, v in edges:
+            if removed >= self.remove_edges:
+                break
+            self.graph.remove_edge(u, v)
+            if not nx.is_connected(self.graph):  # перевіряємо зв’язність
+                self.graph.add_edge(u, v)  # відновлюємо, бо розвалився
+            else:
+                removed += 1
+        return self.graph
 
 
-graph = generate_graph(5)
-visualization(graph)
+    def visualization(self):
+        pos = {node: (node[1], -node[0]) for node in self.graph.nodes()}
+        nx.draw(self.graph, pos, node_color="white", edgecolors="black", node_size=200)
+        plt.show()
+
+
+
+

@@ -1,45 +1,16 @@
-import matplotlib
 import networkx as nx
 
-matplotlib.use("TkAgg")  # або "Qt5Agg", якщо встановлений PyQt5
-import matplotlib.pyplot as plt
-import random
+# Створюємо простий неорієнтований граф
+G = nx.Graph()
+
+# Додаємо ребра (з'єднання між вершинами)
+G.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)])
+
+# Давайте знайдемо сусідів вершини з ID=4
+# Метод повертає ітератор
+neighbors_of_4 = G.neighbors(4)
 
 
-def generate_labyrinth(n, remove_edges=10):
-    G = nx.grid_2d_graph(n, n)  # повний квадратний граф n×n
-
-    edges = list(G.edges())
-    random.shuffle(edges)
-
-    removed = 0
-    for u, v in edges:
-        if removed >= remove_edges:
-            break
-        G.remove_edge(u, v)
-        if not nx.is_connected(G):  # перевіряємо зв’язність
-            G.add_edge(u, v)  # відновлюємо, бо розвалився
-        else:
-            removed += 1
-
-    return G
-
-
-def visualization(G):
-    pos = {(i, j): (j, -i) for i, j in G.nodes()}  # рівна сітка
-    nx.draw(
-        G,
-        pos,
-        with_labels=False,
-        node_color="white",
-        linewidths=1,
-        edgecolors="black",
-        node_size=400,
-        edge_color="black",
-    )
-    plt.axis("equal")
-    plt.show()
-
-
-G = generate_labyrinth(5, remove_edges=12)
-visualization(G)
+# Або ви можете перетворити ітератор на список, щоб зберегти всі сусідні вершини
+list_of_neighbors = list(G.neighbors(4))
+print("\nСписок сусідів вершини 4:", list_of_neighbors)

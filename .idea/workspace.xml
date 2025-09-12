@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34b32bd-4167-472e-b470-cf693397fcfb" name="Changes" comment="Lab1.1 &#10;first commit" />
+    <list default="true" id="b34b32bd-4167-472e-b470-cf693397fcfb" name="Changes" comment="Lab-v1.1.2&#10;first commit">
+      <change afterPath="$PROJECT_DIR$/Lab_2/Lab_2_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab_2/learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_1/Lab_1_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1/Lab_1_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_1/learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1/learning.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +38,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Lab_1_main.executor": "Run",
+    "Python.Lab_2_main.executor": "Run",
+    "Python.ff.executor": "Run",
+    "Python.learn.executor": "Run",
     "Python.learning.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Mishanya/PycharmProjects/Foundation_AI",
     "node.js.detected.package.eslint": "true",
@@ -41,9 +51,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "tasks",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mishanya\PycharmProjects\Foundation_AI" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +77,12 @@
       <option name="presentableId" value="Default" />
       <updated>1757595416245</updated>
       <workItem from="1757595417630" duration="5610000" />
-      <workItem from="1757667716607" duration="525000" />
+      <workItem from="1757667716607" duration="9672000" />
+      <workItem from="1757688981360" duration="89000" />
+      <workItem from="1757689077809" duration="267000" />
+      <workItem from="1757689355495" duration="23000" />
+      <workItem from="1757689387665" duration="316000" />
+      <workItem from="1757689714011" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1.1 &#10;first commit">
       <option name="closed" value="true" />
@@ -71,18 +92,50 @@
       <option name="project" value="LOCAL" />
       <updated>1757667800965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab1.1.1&#10;first commit">
+      <option name="closed" value="true" />
+      <created>1757668434079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757668434079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lab-1.1.2&#10;first commit">
+      <option name="closed" value="true" />
+      <created>1757668659744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757668659744</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab1.1 &#10;first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1.1 &#10;first commit" />
+    <MESSAGE value="Lab1.1.1&#10;first commit" />
+    <MESSAGE value="Lab-1.1.2&#10;first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab-1.1.2&#10;first commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Foundation_AI$learning.coverage" NAME="learning Coverage Results" MODIFIED="1757600190837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
-    <SUITE FILE_PATH="coverage/Foundation_AI$Lab_1_main.coverage" NAME="Lab_1_main Coverage Results" MODIFIED="1757600060260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$learning.coverage" NAME="learning Coverage Results" MODIFIED="1757685102326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$Lab_2_main.coverage" NAME="Lab_2_main Coverage Results" MODIFIED="1757690108532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_2" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$Lab_1_main.coverage" NAME="Lab_1_main Coverage Results" MODIFIED="1757685739887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$ff.coverage" NAME="ff Coverage Results" MODIFIED="1757689851675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$learn.coverage" NAME="learn Coverage Results" MODIFIED="1757687099853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_2" />
   </component>
 </project>
