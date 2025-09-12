@@ -1,1 +1,45 @@
-import matplotlibimport networkx as nxmatplotlib.use("TkAgg")  # або "Qt5Agg", якщо встановлений PyQt5import matplotlib.pyplot as pltimport randomdef generate_labyrinth(n, remove_edges=10):    G = nx.grid_2d_graph(n, n)  # повний квадратний граф n×n    edges = list(G.edges())    random.shuffle(edges)    removed = 0    for u, v in edges:        if removed >= remove_edges:            break        G.remove_edge(u, v)        if not nx.is_connected(G):  # перевіряємо зв’язність            G.add_edge(u, v)  # відновлюємо, бо розвалився        else:            removed += 1    return Gdef visualization(G):    pos = {(i, j): (j, -i) for i, j in G.nodes()}  # рівна сітка    nx.draw(        G, pos,        with_labels=False,        node_color='white',        linewidths=1,        edgecolors='black',        node_size=400,        edge_color='black'    )    plt.axis("equal")    plt.show()G = generate_labyrinth(5, remove_edges=12)visualization(G)
+import matplotlib
+import networkx as nx
+
+matplotlib.use("TkAgg")  # або "Qt5Agg", якщо встановлений PyQt5
+import matplotlib.pyplot as plt
+import random
+
+
+def generate_labyrinth(n, remove_edges=10):
+    G = nx.grid_2d_graph(n, n)  # повний квадратний граф n×n
+
+    edges = list(G.edges())
+    random.shuffle(edges)
+
+    removed = 0
+    for u, v in edges:
+        if removed >= remove_edges:
+            break
+        G.remove_edge(u, v)
+        if not nx.is_connected(G):  # перевіряємо зв’язність
+            G.add_edge(u, v)  # відновлюємо, бо розвалився
+        else:
+            removed += 1
+
+    return G
+
+
+def visualization(G):
+    pos = {(i, j): (j, -i) for i, j in G.nodes()}  # рівна сітка
+    nx.draw(
+        G,
+        pos,
+        with_labels=False,
+        node_color="white",
+        linewidths=1,
+        edgecolors="black",
+        node_size=400,
+        edge_color="black",
+    )
+    plt.axis("equal")
+    plt.show()
+
+
+G = generate_labyrinth(5, remove_edges=12)
+visualization(G)
