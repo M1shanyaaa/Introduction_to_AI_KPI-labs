@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 
-class Create_Graph():
+class Create_Graph:
     def __init__(self, n, remove_edges):
         self.n = n
         self.remove_edges = remove_edges
@@ -11,8 +11,9 @@ class Create_Graph():
 
         self.generate_graph()
 
-
-    def generate_graph(self, ):
+    def generate_graph(
+        self,
+    ):
         self.graph = nx.grid_2d_graph(self.n, self.n)
         edges = list(self.graph.edges())
         random.shuffle(edges)
@@ -28,12 +29,7 @@ class Create_Graph():
                 removed += 1
         return self.graph
 
-
     def visualization(self):
         pos = {node: (node[1], -node[0]) for node in self.graph.nodes()}
         nx.draw(self.graph, pos, node_color="white", edgecolors="black", node_size=200)
         plt.show()
-
-
-
-
