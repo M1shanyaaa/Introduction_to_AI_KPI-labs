@@ -6,7 +6,7 @@ from Lab_2.Lab_2_main import *
 
 
 class KnowledgeBase:
-    """Проста база знань агента."""
+    """База знань агента."""
 
     def __init__(self):
         self.knowledge = {}
@@ -37,12 +37,13 @@ class Extended_Agent(Agent):
         self.kb = KnowledgeBase()
         self.full_path = [start]  # повний маршрут (вперед + назад)
 
+
     def perceive_and_update(self):
         """Оновлюємо базу знань про сусідів та знаки."""
         neighbors = self.see_neighbors()
         signs = {n: list(self.graph.neighbors(n)) for n in neighbors}
         self.kb.tell(self.position, neighbors, signs)
-
+        print(signs)
     def step(self):
         """Робимо один крок вперед або назад по стеку DFS."""
         self.perceive_and_update()
@@ -79,50 +80,8 @@ class Extended_Agent(Agent):
             return self.full_path[1]
         return self.position
 
-    def animate_path(self, delay=0.5):
-        """Анімація реального маршруту агента з усіма відкатами."""
-        pos = {node: (node[1], -node[0]) for node in self.graph.nodes()}
-        path = self.full_path
-
-        for i in range(1, len(path) + 1):
-            plt.clf()
-            nx.draw(
-                self.graph, pos, node_color="white", edgecolors="black", node_size=300
-            )
-
-            # старт і ціль
-            nx.draw_networkx_nodes(
-                self.graph,
-                pos,
-                nodelist=[self.start],
-                node_color="green",
-                node_size=400,
-            )
-            nx.draw_networkx_nodes(
-                self.graph, pos, nodelist=[self.goal], node_color="red", node_size=400
-            )
-
-            # пройдений шлях (жовтим)
-            if i > 1:
-                edges = [(path[j], path[j + 1]) for j in range(i - 1)]
-                nx.draw_networkx_edges(
-                    self.graph, pos, edgelist=edges, edge_color="orange", width=2
-                )
-
-            # поточна позиція (синім)
-            nx.draw_networkx_nodes(
-                self.graph,
-                pos,
-                nodelist=[path[i - 1]],
-                node_color="blue",
-                node_size=350,
-            )
-
-            plt.pause(delay)
-
-        plt.show()
-
     def print_knowledge(self):
+        print(self.kb.knowledge)
         for node, data in self.kb.knowledge.items():
             print(f"Вузол {node}: сусіди={data['neighbors']}, знаки={data['signs']}")
 

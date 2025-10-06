@@ -6,7 +6,7 @@ import networkx as nx
 from Lab_1.learning import Create_Graph
 
 
-class CarAgent:
+class Agent:
     """Раціональний агент-автомобіль з обмеженим баченням."""
 
     def __init__(self, graph, start, goal):
@@ -107,10 +107,10 @@ class CarAgent:
 if __name__ == "__main__":
     # Створюємо граф
     graph_creator = Create_Graph(5, 13)
-
+    graph_creator.visualization()
     start = (0, 0)
     goal = (4, 4)
 
-    agent = CarAgent(graph_creator.graph, start, goal)
+    agent = Agent(graph_creator.graph, start, goal)
     final_path = agent.search()
-    agent.animate_path(delay=0.7)
+    agent.animate_path(delay=0.4)
