@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34b32bd-4167-472e-b470-cf693397fcfb" name="Changes" comment="Lab3-v1.0">
+    <list default="true" id="b34b32bd-4167-472e-b470-cf693397fcfb" name="Changes" comment="правки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_1/Lab_1_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1/Lab_1_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_1/learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1/learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_2/Lab_2_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2/Lab_2_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3/Lab_3_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3/Lab_3_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3/learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3/learn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +97,7 @@
       <workItem from="1759592496838" duration="56000" />
       <workItem from="1759595782655" duration="11000" />
       <workItem from="1759759079413" duration="9143000" />
-      <workItem from="1759921714862" duration="1249000" />
+      <workItem from="1759921714862" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1.1 &#10;first commit">
       <option name="closed" value="true" />
@@ -168,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759768763990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="правки">
+      <option name="closed" value="true" />
+      <created>1759923200037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759923200037</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +197,8 @@
     <MESSAGE value="Lab3-v0.1.1(formated)" />
     <MESSAGE value="Lab3-v0.2" />
     <MESSAGE value="Lab3-v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab3-v1.0" />
+    <MESSAGE value="правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Foundation_AI$learning.coverage" NAME="learning Coverage Results" MODIFIED="1758116185123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
