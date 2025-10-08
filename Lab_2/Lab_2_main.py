@@ -3,7 +3,7 @@ import matplotlib
 matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import networkx as nx
-from Lab_1.learning import Create_Graph
+from Lab_1.Lab_1_main import Create_Graph
 
 
 class Agent:
