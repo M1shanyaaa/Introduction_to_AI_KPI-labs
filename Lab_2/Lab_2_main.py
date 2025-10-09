@@ -1,5 +1,4 @@
 import matplotlib
-
 matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -13,10 +12,10 @@ class Agent:
         self.graph = graph
         self.start = start
         self.goal = goal
-        self.position = start  # де він зараз
-        self.path = [start]  # пройдений шлях
-        self.visited_nodes = {start}  # пам’ять про відвідані перехрестя
-        self.visited_edges = set()  # пам’ять про дороги
+        self.position = start
+        self.path = [start]
+        self.visited_nodes = {start}
+        self.visited_edges = set()
 
     def see_neighbors(self):
         """Агент бачить тільки сусідів поточного вузла."""
@@ -25,9 +24,8 @@ class Agent:
     def move(self, next_node):
         """Рух агента: зберігаємо пройдений шлях, вузли та дороги."""
         if next_node in self.graph.neighbors(self.position):
-            # додаємо інформацію до пам'яті
             self.visited_edges.add((self.position, next_node))
-            self.visited_edges.add((next_node, self.position))  # бо дорога двостороння
+            self.visited_edges.add((next_node, self.position))
             self.visited_nodes.add(next_node)
 
             # оновлюємо положення
@@ -46,10 +44,8 @@ class Agent:
         unvisited = [n for n in neighbors if n not in self.visited_nodes]
 
         if unvisited:
-            # вибираємо того сусіда, хто ближчий до цілі
             return min(unvisited, key=lambda n: self.heuristic(n))
         else:
-            # якщо всі відвідані — повертаємось назад (backtracking)
             if len(self.path) > 1:
                 return self.path[-2]
             return self.position
@@ -71,7 +67,6 @@ class Agent:
                 self.graph, pos, node_color="white", edgecolors="black", node_size=300
             )
 
-            # старт і ціль
             nx.draw_networkx_nodes(
                 self.graph,
                 pos,
@@ -83,14 +78,12 @@ class Agent:
                 self.graph, pos, nodelist=[self.goal], node_color="red", node_size=400
             )
 
-            # пройдений шлях (жовтим)
             if i > 1:
                 edges = [(self.path[j], self.path[j + 1]) for j in range(i - 1)]
                 nx.draw_networkx_edges(
                     self.graph, pos, edgelist=edges, edge_color="orange", width=2
                 )
 
-            # поточна позиція (синім)
             nx.draw_networkx_nodes(
                 self.graph,
                 pos,
@@ -105,7 +98,6 @@ class Agent:
 
 
 if __name__ == "__main__":
-    # Створюємо граф
     graph_creator = Create_Graph(5, 13)
     graph_creator.visualization()
     start = (0, 0)
