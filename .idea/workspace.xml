@@ -4,63 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34b32bd-4167-472e-b470-cf693397fcfb" name="Changes" comment="правки 2.0">
-      <change afterPath="$PROJECT_DIR$/Lab_1/Lab_1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_1/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/Lab_2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/lab2_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_2/step_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/Lab_3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/lab3_graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_3/step_9.png" afterDir="false" />
+    <list default="true" id="b34b32bd-4167-472e-b470-cf693397fcfb" name="Changes" comment="Added jupiter notedook file for 1,2,3 lab">
+      <change afterPath="$PROJECT_DIR$/Lab_4/Lab_4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab_4/cnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_1/learning.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_2/learn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3/learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_4/Lab_4_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_4/Lab_4_main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -104,6 +52,8 @@
     &quot;Python.ff.executor&quot;: &quot;Run&quot;,
     &quot;Python.learn.executor&quot;: &quot;Run&quot;,
     &quot;Python.learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.speed_cnn.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -166,7 +116,13 @@
       <workItem from="1759990738709" duration="3391000" />
       <workItem from="1759997743808" duration="391000" />
       <workItem from="1762158828632" duration="637000" />
-      <workItem from="1762159482720" duration="2288000" />
+      <workItem from="1762159482720" duration="4965000" />
+      <workItem from="1762452029565" duration="40000" />
+      <workItem from="1763898932016" duration="437000" />
+      <workItem from="1763899385870" duration="3416000" />
+      <workItem from="1763906602089" duration="1810000" />
+      <workItem from="1763989737693" duration="15000" />
+      <workItem from="1764340050413" duration="3136000" />
     </task>
     <task id="LOCAL-00001" summary="Lab1.1 &#10;first commit">
       <option name="closed" value="true" />
@@ -256,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759992674898</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added jupiter notedook file for 1,2,3 lab">
+      <option name="closed" value="true" />
+      <created>1762162155958</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762162155958</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,15 +248,18 @@
     <MESSAGE value="Lab3-v1.0" />
     <MESSAGE value="правки" />
     <MESSAGE value="правки 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="правки 2.0" />
+    <MESSAGE value="Added jupiter notedook file for 1,2,3 lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jupiter notedook file for 1,2,3 lab" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Foundation_AI$learning.coverage" NAME="learning Coverage Results" MODIFIED="1758116185123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
     <SUITE FILE_PATH="coverage/Foundation_AI$Lab_2_main.coverage" NAME="Lab_2_main Coverage Results" MODIFIED="1759991236686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_2" />
-    <SUITE FILE_PATH="coverage/Foundation_AI$Lab_4_main.coverage" NAME="Lab_4_main Coverage Results" MODIFIED="1759998063166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_4" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$Lab_4_main.coverage" NAME="Lab_4_main Coverage Results" MODIFIED="1764340080333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_4" />
     <SUITE FILE_PATH="coverage/Foundation_AI$Lab_1_main.coverage" NAME="Lab_1_main Coverage Results" MODIFIED="1762159401220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_1" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$sl.coverage" NAME="sl Coverage Results" MODIFIED="1763900207029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_4" />
     <SUITE FILE_PATH="coverage/Foundation_AI$Lab_3_main.coverage" NAME="Lab_3_main Coverage Results" MODIFIED="1759993903710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_3" />
     <SUITE FILE_PATH="coverage/Foundation_AI$ff.coverage" NAME="ff Coverage Results" MODIFIED="1757689851675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Foundation_AI$learn.coverage" NAME="learn Coverage Results" MODIFIED="1759768560000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_3" />
+    <SUITE FILE_PATH="coverage/Foundation_AI$speed_cnn.coverage" NAME="speed_cnn Coverage Results" MODIFIED="1764341663330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab_4" />
   </component>
 </project>
